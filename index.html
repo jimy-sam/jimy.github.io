@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu container">
+            <img class="logo-1" src="logo.svg" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="cr.html">Servicios</a></li>
+                        <li><a href="yu.html">Productos</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="logo.svg" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="">
+                            <div class="social">
+                                <img src="s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="social">
+                                <img src="s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="social">
+                                <img src="s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Megaburguer</h1>
+                                <p>
+                                    Nuestra hamburguesa premium está hecha con los ingredientes más frescos y de la más
+                                    alta calidad. Disfruta de un sabor inigualable en cada bocado, con carne jugosa,
+                                    vegetales frescos y una salsa especial que realza su sabor. Ingredientes
+                                    principales: Carne de res de primera calidad, queso cheddar fundido, lechuga fresca,
+                                    tomate, cebolla caramelizada y una salsa secreta. Ideal para: Los amantes de las
+                                    hamburguesas que buscan una experiencia gourmet.
+                                </p>
+                                <div class="botones">
+                                    <a href="cr.html" class="btn-1">Comprar</a>
+                                    <a href="yu.html" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>sándwich </h1>
+                                <p>
+                                    Disfruta de un delicioso sándwich preparado con pan recién horneado, relleno de
+                                    carnes frías y vegetales frescos. Perfecto para un antojo rápido y lleno de sabor.
+                                </p>
+                                <div class="botones">
+                                    <a href="cr.html" class="btn-1">Comprar</a>
+                                    <a href="yu.html" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa</h1>
+                                <p>
+                                    Saborea una hamburguesa jugosa, hecha con carne de primera calidad, queso derretido
+                                    y vegetales frescos. Ideal para quienes buscan una explosión de sabor en cada
+                                    bocado.
+                                </p>
+                                <div class="botones">
+                                    <a href="cr.html" class="btn-1">Comprar</a>
+                                    <a href="yu.html" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <main class="products">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <Label for="tab1">Hamburguesa</Label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>hamburguesa</h4>
+                                    <p>simple</p>
+                                    <span class="price">$15.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>sandwich</h4>
+                                    <p>medio</p>
+                                    <span class="price">$10.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>sandwich doble</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$30.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <Label for="tab2">Burritos</Label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food4.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito de carne de res</h4>
+                                    <p>simple</p>
+                                    <span class="price">$12.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food5.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito con carne al pastor</h4>
+                                    <p>media</p>
+                                    <span class="price">$20.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food6.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Buriito Doble</h4>
+                                    <p>calidad premium</p>
+                                    <span class="price">$34.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <Label for="tab3">Variedad</Label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food7.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Ensalada Waldorf con camarones</h4>
+                                    <p>media</p>
+                                    <span class="price">$25.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food8.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Brochetas de carne de cerdo</h4>
+                                    <p>alta</p>
+                                    <span class="price">30.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="food9.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pizza de Pepperoni</h4>
+                                    <p>calidad simple</p>
+                                    <span class="price">$15.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </main>
+    <section class="info container">
+        <div class="info-img">
+            <img src="info.png" alt="">
+        </div>
+
+        <div class="info-txt">
+            <h2>Informacion</h2>
+            <p>
+                Acerca de nosotros: En Food Divcode, nos apasiona la buena comida y la innovación. Nos especializamos en
+                crear experiencias gastronómicas únicas, combinando ingredientes de calidad y técnicas culinarias
+                modernas. Nuestro objetivo es brindar a nuestros clientes una experiencia culinaria memorable en cada
+                visita. Nuestra misión: Ofrecer productos que fusionen sabor, calidad y presentación, utilizando
+                ingredientes frescos y sostenibles para satisfacer hasta a los paladares más exigentes. Ubicación:
+                Visítanos en el corazón de la ciudad o pide en línea para recibir tus alimentos frescos y deliciosos
+                directamente en tu puerta.
+            </p>
+            <a href="info.html" class="btn-2">Mas informacion</a>
+        </div>
+
+
+    </section>
+
+    <section class="horario">
+        <div class="horario-info container">
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>
+                        Miraflores: 
+                        Av. Illimani Nº 1973.
+                    </p>
+                    <p>
+                        Plaza Villarroel: 
+                        Estación Plaza Villarroel de la Línea Blanca de Mi Teleférico.
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes-Viernes : 09 am -07pm
+                    </p>
+                    <p>
+                        Sabado-Domingo : 12 am -05pm
+                    </p>
+                </div>
+                <br>
+                <div class="txt">
+                    <h4>Telefono</h4>
+                    <p>
+                        75884140
+                    </p>
+                    <p>
+                        + 1 470-33-6621
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="">
+                            <div class="social">
+                                <img src="s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=_oq2Z-tQVPyoN6t4">
+                            <div class="social">
+                                <img src="s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="social">
+                                <img src="s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496046.94162703404!2d-68.19279022546858!3d-16.478572153781492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0a04f5a40f%3A0x57dbfc76b4458ab3!2sLa%20Paz!5e0!3m2!1ses-419!2sbo!4v1730690656939!5m2!1ses-419!2sbo"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer class="footer container">
+        <img class="logo-2" src="logo.svg" alt="">
+        <div class="links">
+            <h4>Atención al cliente</h4>
+            <ul>
+                <li><a href="">Centro de Ayuda</a></li>
+                <li><a href="">¿Como comprar?</a></li>
+                <li><a href="">Codigo Promocional</a></li>
+
+            </ul>
+        </div>
+        <div class="links">
+            <h4>legal</h4>
+            <ul>
+                <li><a href="">términos y condiciones </a></li>
+                <li><a href="">Políticas de Envío</a></li>
+                <li><a href="">Políticas de Cambio</a></li>
+                <li><a href="">Políticas de Privacidad</a></li>
+
+            </ul>
+        </div>
+        <div class="links">
+            <h4>contáctate con nosotros</h4>
+            <ul>
+                <li><a href="">Agreganos:+591 75884140</a></li>
+                <li><a href="">Escribenos : info@food.bo</a></li>
+
+
+            </ul>
+        </div>
+        <div class="links">
+            <h4>NUESTRAS REDES</h4>
+            <div class="socials">
+                <a href="">
+                    <div class="social">
+                        <img src="s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://m.facebook.com/help/668969529866328/?ref=share">
+                    <div class="social">
+                        <img src="s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="social">
+                        <img src="s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
